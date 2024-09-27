@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="keywords" content="frontend, resume" />
+    <meta name="description" content="Это сайт-резюме Веры Носовой" />
+    <title>Vera Nosova</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <img src="Вера.jpg" width="150" />
+    <h1>Вера Носова</h1>
+    <p>
+      Меня зовут <strong>Вера</strong>. Я работаю сейсмиком-
+      интерпретатором в IT компании. Мы занимаемся разработкой софта для
+      интерпретации геофизических данных на веб-платформе.
+    </p>
+    <p>
+      Сейчас я начала изучение <em>фронтенд-разработки</em>. Скоро буду пилить сайты и приложения!
+    </p>
+    <h2>Я люблю</h2>
+    <ul>
+      <li>читать</li>
+      <li>ходить в караоке</li>
+      <li>путешествовать</li>
+    </ul>
+    <h2>Социальные сети:</h2>
+    <a href="https://instagram.com/privet_ya_vera/" target="_blank"
+      >Instagram</a
+    >
+    /
+    <a href="https://vk.com/vera_nosova/" target="_blank"
+      >Vk</a
+    >
+    <h2>Опыт работы</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Компания</th>
+          <th>Должность</th>
+          <th>Год</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>ГПН-ЦР</td>
+          <td>Аналитик</td>
+          <td>2024</td>
+        </tr>
+        <tr>
+          <td>ГПН-НТЦ</td>
+          <td>Геолог</td>
+          <td>2022-2024</td>
+        </tr>
+        <tr>
+          <td>Геопрайм</td>
+          <td>Геофизик</td>
+          <td>2015-2022</td>
+        </tr>
+      </tbody>
+    </table>
+    <h2>Связаться со мной</h2>
+    <form>
+      <div>
+        <label for="name">Ваше имя:</label>
+        <input type="text" id="name" placeholder="Введите свое имя" />
+      </div>
+      <div>
+        <label for="email">Ваш email:</label>
+        <input type="email" id="email" placeholder="Введите свой email" />
+      </div>
+      <div>
+        <label for="message">Ваше сообщение:</label>
+        <br />
+        <textarea
+          id="message"
+          placeholder="Введите сообщение"
+          cols="30"
+          rows="5"
+        ></textarea>
+      </div>
+
+      <input type="submit" value="Отправить форму" />
+    </form>
+  </body>
+</html>
